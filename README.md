@@ -30,8 +30,9 @@ This project implements a personalized movie recommendation system using a subse
 ## Features Implemented
 
 - Data loading and preprocessing
-- Implementation of collaborative filtering (user-based)
-- Baseline models (global mean, user mean, movie mean)
+- Baseline models (global mean, user mean, item mean)
+- Implementation of Collaborative Filtering (user-based)
+- Implementation of Matrix Factorization with Gradient Descent
 - Evaluation using RMSE
 
 ## Approach
