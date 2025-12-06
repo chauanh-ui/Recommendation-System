@@ -1,5 +1,7 @@
 # Personalized Recommendation System
 This is my assignment for the course Big Data Intelligence at Tsinghua University.
+## Author
+Dang Chau Anh
 ## Overview
 This project implements a personalized movie recommendation system using a subset of the Netflix Prize dataset. The dataset includes 10,000 users, 10,000 movies, and more than 8 million user–movie ratings. The goal is to build a model capable of predicting how a user will rate unseen movies. The recommendation system is trained on 80% of user behavior data and evaluated on the remaining 20%.
 
@@ -81,3 +83,6 @@ The model performance is evaluated on the test set using:
 - Hybrid CF + content models
 - Time-aware rating prediction
 - Personalized top-N recommendation lists
+
+## Notes
+This project is submitted as coursework for the Big Data Intelligence course at Tsinghua University.
