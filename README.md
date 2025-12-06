@@ -3,29 +3,8 @@ This is my assignment for the course Big Data Intelligence at Tsinghua Universit
 ## Author
 Dang Chau Anh
 ## Overview
-This project implements a personalized movie recommendation system using a subset of the Netflix Prize dataset. The dataset includes 10,000 users, 10,000 movies, and more than 8 million user–movie ratings. The goal is to build a model capable of predicting how a user will rate unseen movies. The recommendation system is trained on 80% of user behavior data and evaluated on the remaining 20%.
+This project implements a personalized movie recommendation system using a subset of the Netflix dataset. The dataset includes 10,000 users, 10,000 movies, and more than 8 million user–movie ratings. The goal is to build a model capable of predicting how a user will rate unseen movies. The recommendation system is trained on 80% of user behavior data and evaluated on the remaining 20%.
 
-## Dataset Description
-
-### 1. users.txt
-- Contains 10,000 lines
-- Each line: a user ID (integer)
-- Represents all users in the project
-
-### 2. movie_titles.txt
-- Format per line: `movie_id, year, movie_title`
-- Includes movie metadata (optional for the basic task)
-
-### 3. netflix_train.txt
-- Contains 6.89 million ratings
-- Format: `user_id movie_id rating date`
-- Data separated by spaces
-- Used as the training set (80%)
-
-### 4. netflix_test.txt
-- Contains ~1.72 million ratings
-- Same format as training data
-- Used as the test set (20%)
 
 ## Features Implemented
 
